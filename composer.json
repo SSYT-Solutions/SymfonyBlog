@@ -1,16 +1,29 @@
 {
-    "authors": {
-
-    },
+    "name": "slim/slim-blog",
+    "description": "A Slim Framework blog application for rapid development",
+    "keywords": ["microframework", "rest", "router", "psr7"],
+    "homepage": "http://github.com/SSYT-Solutions/SymfonyBlog",
+    "license": "MIT",
 
     "require": {
-        "php": ">= 5.6",
-        "slim/slim": "^3.0"
+        "php" : "^5.5 || ^7.0",
+        "ext-mbstring": "*",
+        "slim/slim": "3.12",
+        "phpmailer/phpmailer": "^5.2",
+        "monolog/monolog": "^1.17",
+        "slim/twig-view": "",
+        "slim/csrf": "",
+        "slim/flash": ""
     },
 
     "autoload": {
         "psr-4": {
-            "App\\": "app"
+            "App\\": "app/"
         }
-    }
+    },
+
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    },
 }
