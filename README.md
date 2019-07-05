@@ -1,0 +1,2 @@
+# SymfonyBlog
+Symfony Blog Platform.
