@@ -1,13 +1,17 @@
 <?php
-/**
-  *
-  *
-*/
+  namespace App\Controllers;
 
-namespace App\Controllers;
+  class HomeController extends Controller {
+      public function index()
+      {
+          echo "home page";
+          if($this->container->get('Guest')) {
+              echo "Hello Guest";
+          }
+      }
 
-final class HomeController extends Controller {
-    public function index($request, $response, $args[]) {
-        return $response;
-    }
-}
+      public function login()
+      {
+          
+      }
+  }
