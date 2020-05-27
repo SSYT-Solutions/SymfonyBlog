@@ -10,7 +10,7 @@
         "ext-mbstring": "*",
         "andrewdyer/slim3-session-middleware": "^0.1.0",
         "monolog/monolog": "^1.17",
-        "phpmailer/phpmailer": "^5.2",
+        "phpmailer/phpmailer": "^6.1",
         "psr/event-dispatcher": "^1.0",
         "robmorgan/phinx": "^0.5.1",
         "slim/csrf": "^0.8",
